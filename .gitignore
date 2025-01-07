@@ -3,28 +3,30 @@
 # Learn more about .gitignore:
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
-# Node artifact files
+# Node.js artifact files
 node_modules/
 dist/
-
-# Compiled Java class files
-*.class
-
-# Compiled Python bytecode
-*.py[cod]
+build/
 
 # Log files
+logs/
 *.log
+npm-debug.log*
 
-# Package files
-*.jar
+#os-generated files
+.DS_Store
+Thumbs.db
 
-# Maven
-target/
-dist/
+#sensitive data
+.env
+secrets.json
 
-# JetBrains IDE
-.idea/
+#Test Coverage
+coverage/
+
+#Temporary Files
+*.tmp
+*.swp
 
 # Unit test reports
 TEST*.xml
@@ -47,4 +49,18 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+
+# Compiled Java class files
+*.class
+
+# Compiled Python bytecode
+*.py[cod]
+# Package files
+*.jar
+# Maven
+target/
+# JetBrains IDE
+.idea/
+
+
 

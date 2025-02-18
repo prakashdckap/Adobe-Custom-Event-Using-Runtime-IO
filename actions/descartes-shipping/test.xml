@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MLW Cmd="6" TStamp="2024-11-04T08:17:37" Id="84477" OrgId="825238715" DevId="a777e67c-REG-5f91f97f-d9189f4d" RouteId="1175123:2620589" TruckId="LN269218" StopId="14456238" LocationKey="PRE245-20" DriverName="Sam Loner" LTStamp="2024-11-04T03:17:37" RouteName="Moonshine" GroupName="SRS BUILDING PRODUCTS - MARIETTA" GroupId="1829" SType="3" CustNo="PRE245-20" Name="PREMIER ROOFING COMPANY" LocationAddress="55 SPIVEY LN" LocationCity="SWAINSBORO" LocationState="GA" LocationPostalCode="30401">
+  <GPS Altitude="355.06502091418952" Latitude="33.981149902660228" Longitude="-84.5433675785606" NoOfSat="7" Speed="0.098615773664189582" SatTStamp="2024-11-04T08:17:37" Direction="0" FixQuality="A" />
+  <Job Id="29927687" JobId="29927687" JType="3" Status="2" Name="WHSE" DispId="0040422976-001">
+    <Extension Name="SHIPVIA" Value="GROUND DROP" />
+    <Extension Name="ORDERTYPE" Value="SO" />
+    <Extension Name="DISPACTHID" Value="14212661" />
+    <Extension Name="BRANCH" Value="0131" />
+    <Extension Name="CUSTOMERPO" Value="2488801-1-ATL" />
+    <Item ItemId="41790499" Status="1" Key="" Name="" LoadedOnCart="False" />
+  </Job>
+  <Job Id="29927870" JobId="29927870" JType="3" Status="2" Name="WHSE" DispId="40422976">
+    <Extension Name="SHIPVIA" Value="GROUND DROP" />
+    <Extension Name="ORDERTYPE" Value="SO" />
+    <Extension Name="DISPACTHID" Value="14212670" />
+    <Extension Name="BRANCH" Value="0131" />
+    <Extension Name="CUSTOMERPO" Value="2488801-1-ATL" />
+    <Item ItemId="41790932" Status="1" Key="" Name="" LoadedOnCart="False" />
+  </Job>
+  <Extension Name="STOPTYPE" Value="Customer" />
+  <Extension Name="CUSTOMERTYPE" Value="GROUND DROP" />
+  <Extension Name="SHIPCODE" Value="4" />
+  <Extension Name="SHIPCODE" Value="4" />
+  <Extension Name="ADDRESS2" Value="WESLEY DEFREITAS" />
+</MLW>

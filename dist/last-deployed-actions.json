@@ -1,0 +1,14 @@
+{
+  "aioHeritage/__secured_generic": "d6d6c625d19fee88d30203d82f65685717addb162976abfdccb532a45c76b845",
+  "aioHeritage/__secured_publish-events": "ac2baf0c2f55eafcb3962da020d17d49eeeefe6141a223b667d29eff2d51075b",
+  "aioHeritage/generic": "52bffcaf8d90efa656faa85688251833d3a4fb7ad6d7e33c89dd3d6105ed6b65",
+  "aioHeritage/publish-events": "7e92e887e9a6f134262e014483cef109f979d41f8133617715dc9e0aa901d3a9",
+  "descartes-shipping/__secured_getTrackingInfo": "a111f90d4c7ee523708c6a3ced58c04ffa685479b48cbfd7032112c261732c34",
+  "descartes-shipping/__secured_shippingInfo": "515f3242fb186a93036a09a23dc6313625225a597c2a7beb6077da6a9de47939",
+  "descartes-shipping/getTrackingInfo": "2657884e2f72dd078d750266205f367452ee1886a3fb71151f5d26eb8d619ed4",
+  "descartes-shipping/shippingInfo": "f860eb7947c1142dae4b0bbb8f4b7dc05d5fcd4bb6f48ff5c9259d8e98a3059c",
+  "releaseNotification/orderSuccess": "08d382e759236e75e1e8137f0a11b37371e814ad20481853d3456d3ecfe2a572",
+  "releaseNotification/orderFailure": "c939740c77f19401ef0e89b8e002be2b65573d7522fd42c72ce5016cc863f1ca",
+  "releaseNotification/agilityOrderSuccess": "ed2c42315113aec6fc78139402e8d0d7f730ed5543c9b30cc665763c731a84de",
+  "releaseNotification/agilityOrderFailure": "ea229a91e1317596dd2f92656f306501b5e68f3a32ac992362ba5825a720a52b"
+}

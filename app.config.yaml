@@ -1,0 +1,63 @@
+application:
+  actions: actions
+  web: web-src
+  runtimeManifest:
+    packages:
+      aioHeritage:
+        license: Apache-2.0
+        actions:
+          generic:
+            function: actions/generic/index.js
+            web: 'yes'
+            runtime: nodejs:14
+            inputs:
+              LOG_LEVEL: debug
+            annotations:
+              require-adobe-auth: true
+              final: true
+          publish-events:
+            function: actions/publish-events/index.js
+            web: 'yes'
+            runtime: nodejs:14
+            inputs:
+              LOG_LEVEL: debug
+              apiKey: $SERVICE_API_KEY
+            annotations:
+              require-adobe-auth: true
+              final: true
+      descartes-shipping:
+        license: Apache-2.0
+        actions:
+          getTrackingInfo:
+            function: actions/descartes-shipping/index.js
+            web: 'yes'
+            runtime: nodejs:14
+            annotations:
+              require-adobe-auth: true
+              final: true
+          shippingInfo:
+            function: index.js
+            web: 'yes'
+            runtime: nodejs:14
+            annotations:
+              require-adobe-auth: false
+              final: true    
+      releaseNotification:
+        license: Apache-2.0
+        actions:
+          orderSuccess:
+            function: actions/releaseNotification/orderSuccess.js
+            web: 'no'
+            runtime: nodejs:14
+          orderFailure:
+            function: actions/releaseNotification/orderFailure.js
+            web: 'no'
+            runtime: nodejs:14
+          agilityOrderSuccess:
+            function: actions/releaseNotification/agilityOrderSuccess.js
+            web: 'no'
+            runtime: nodejs:14
+          agilityOrderFailure:
+            function: actions/releaseNotification/agilityOrderFailure.js
+            web: 'no'
+            runtime: nodejs:14

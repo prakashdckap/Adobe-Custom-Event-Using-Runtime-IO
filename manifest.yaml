@@ -1,0 +1,25 @@
+packages:
+  companyNotification:
+    actions:
+      companyNotify:
+        function: companyNotificationSPW_Stage.js
+        runtime: nodejs:14
+        web: no
+  credentialNotification:
+    actions:
+      customerNotify:
+        function: customerNotificationSPW_Stage.js
+        runtime: nodejs:14
+        web: no
+  orderNotification:
+    actions:
+      orderNotify:
+        function: orderNotificationSPW_Stage.js
+        runtime: nodejs:14
+        web: no
+  descartesShipping:
+    actions:
+      middleware:
+        function: actions/descartes-shipping/middleware.js
+        runtime: nodejs:14
+        web: true      
